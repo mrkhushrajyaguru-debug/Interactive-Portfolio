@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khush Rajyaguru | Web Developer &amp; UI/UX Designer</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container nav-container">
+      <a href="#about" class="logo">Khush<span>.dev</span></a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Technical Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#tracker">Sprint Tracker</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-controls">
+        <button type="button" id="themeToggleBtn" class="btn-theme" aria-label="Toggle Dark Mode">
+          <span id="themeIcon">🌙</span> <span id="themeLabel">Dark Mode</span>
+        </button>
+        <button type="button" id="mobileMenuBtn" class="btn-menu" aria-label="Toggle Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero & About Section (Medium Photo Fitted Right of Name & Details) -->
+    <section id="about" class="hero">
+      <div class="container">
+        <div class="hero-layout">
+          <div class="hero-content">
+            <span class="hero-badge">Web Developer | UI/UX Designer</span>
+            <h1 class="hero-title">Hi, I'm <span>Khush Rajyaguru</span></h1>
+            <p class="hero-summary">
+              Motivated Frontend Developer and UI/UX Designer pursuing a Bachelor of Technology in Computer Science &amp; Engineering (CTIS). Hands-on experience designing responsive web interfaces, developing with modern web technologies, and managing project workflows to transform user requirements into clean, functional, and user-friendly digital designs.
+            </p>
+
+            <div class="hero-meta">
+              <span>📍 Vadodara, 390019, Gujarat</span>
+              <span>🎓 B.Tech CSE (CTIS) 2023–2027</span>
+              <span>📧 mr.khushrajyaguru@gmail.com</span>
+              <span>📞 +91-9428136403</span>
+            </div>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">Explore Projects</a>
+              <button type="button" id="toggleBioBtn" class="btn btn-outline">More About Me</button>
+            </div>
+          </div>
+
+          <div class="hero-photo-wrapper">
+            <img src="IMG/img-pro.jpeg" alt="Khush Rajyaguru" class="hero-photo" />
+          </div>
+        </div>
+
+        <div id="bioBox" class="collapsible-box">
+          <article class="detail-card">
+            <h3 class="detail-card-title">Background &amp; Engineering Philosophy</h3>
+            <p class="bio-text">
+              Born on 14/05/2005 in Gujarat, I combine UI/UX design in Figma with frontend development in HTML, CSS, and JavaScript. Working at Adri IT Solutions on hospitality tech and a single-broker stock trading app &amp; website while completing my B.Tech at ITM Vocational University, I focus on clean interfaces, team coordination, and practical problem solving.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section (2x2 Cards + Hover Color Shift) -->
+    <section id="skills">
+      <div class="container">
+        <div class="detail-panel">
+          <div class="panel-header">
+            <h2 class="panel-heading">Technical Skills</h2>
+            <button type="button" id="toggleSkillsBtn" class="btn btn-outline btn-sm">Hide Cards</button>
+          </div>
+
+          <div id="skillsContainer" class="detail-grid-2">
+            <article class="detail-card">
+              <h3 class="detail-card-title">Web Technologies and Languages</h3>
+              <ul class="detail-bullet-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </article>
+
+            <article class="detail-card">
+              <h3 class="detail-card-title">Tools</h3>
+              <ul class="detail-bullet-list">
+                <li>Figma</li>
+                <li>WordPress</li>
+                <li>Visual Studio Code</li>
+                <li>Oracle APEX</li>
+              </ul>
+            </article>
+
+            <article class="detail-card">
+              <h3 class="detail-card-title">Languages Spoken</h3>
+              <ul class="detail-bullet-list">
+                <li>English</li>
+                <li>Hindi</li>
+                <li>Gujarati</li>
+              </ul>
+            </article>
+
+            <article class="detail-card">
+              <h3 class="detail-card-title">Professional Strengths</h3>
+              <ul class="detail-bullet-list">
+                <li>Team Leadership</li>
+                <li>Communication</li>
+                <li>Problem Solving</li>
+                <li>Emotional Intelligence</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Section (Detail Cards Grid + Interactive Slider) -->
+    <section id="projects">
+      <div class="container">
+        <div class="detail-panel">
+          <div class="panel-header">
+            <h2 class="panel-heading">Featured Projects</h2>
+          </div>
+
+          <div class="detail-grid-2 projects-cards-grid">
+            <article class="detail-card">
+              <h3 class="detail-card-title">Hospitality Management System</h3>
+              <p class="card-meta-tag">Front-end Developer • Visual Studio Code, Front-end</p>
+              <ul class="detail-bullet-list">
+                <li>Workflow built for member and employee management across the organization.</li>
+                <li>Handles employee onboarding and detailed staff member records.</li>
+                <li>Designed for Australian Hospitality Management needing one unified staff and organization management system.</li>
+              </ul>
+            </article>
+
+            <article class="detail-card">
+              <h3 class="detail-card-title">Cyber Security Threat Detection Dashboard</h3>
+              <p class="card-meta-tag">UI/UX Designer • Figma, UI/UX Design</p>
+              <ul class="detail-bullet-list">
+                <li>Designed an interactive threat detection dashboard interface to assist users in identifying active cyber attacks.</li>
+                <li>Formatted component layouts and color hierarchy to streamline real-time alert monitoring workflows.</li>
+              </ul>
+            </article>
+
+            <article class="detail-card">
+              <h3 class="detail-card-title">Motion Detection Alarm System</h3>
+              <p class="card-meta-tag">Hardware &amp; Software Integration • Embedded Systems, IoT</p>
+              <ul class="detail-bullet-list">
+                <li>Developed an automated motion-sensing security alarm system that detects nearby objects via integrated sensors.</li>
+                <li>Programmed real-time notification logic to send direct mobile alerts alongside triggering audio alarms.</li>
+              </ul>
+            </article>
+          </div>
+
+          <!-- Interactive Slider Card -->
+          <div class="slider-wrapper" id="projectSlider">
+            <div class="slide-content">
+              <div class="slide-visual" id="slideVisual">
+                <div class="slide-icon" id="slideIcon">🏨</div>
+                <span class="slide-role-badge" id="slideRole">Front-end Developer</span>
+              </div>
+
+              <div class="slide-details">
+                <div>
+                  <div class="slide-counter" id="slideCounter">Project 1 of 4</div>
+                  <h3 class="slide-title" id="slideTitle">Hospitality Management System</h3>
+                  <p class="slide-desc" id="slideTech">Tools: Visual Studio Code, Front-end</p>
+                  <ul class="slide-bullets" id="slideBullets"></ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="slider-controls">
+              <button type="button" id="prevSlideBtn" class="btn btn-outline">← Previous</button>
+              <div class="slider-dots" id="sliderDots"></div>
+              <button type="button" id="nextSlideBtn" class="btn btn-primary">Next →</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section (Detail Cards) -->
+    <section id="experience">
+      <div class="container">
+        <div class="detail-panel">
+          <div class="panel-header">
+            <h2 class="panel-heading">Experience</h2>
+          </div>
+
+          <div class="detail-grid-2">
+            <article class="detail-card">
+              <h3 class="detail-card-title">Software Developer — Adri IT Solutions</h3>
+              <p class="card-meta-tag">Ongoing Internship • Vadodara, Gujarat</p>
+              <ul class="detail-bullet-list">
+                <li>Hospitality Tech: Building and scaling software solutions tailored for the hospitality industry.</li>
+                <li>With one team, building a secure, real-time single-broker stock trading application and website.</li>
+                <li>Continuous Learning: Deepening knowledge in complex database management and advanced software engineering patterns.</li>
+              </ul>
+            </article>
+
+            <article class="detail-card">
+              <h3 class="detail-card-title">Assistant Manager &amp; Frontend Developer — Knowledgesquare</h3>
+              <p class="card-meta-tag">4-Month Duration • Vadodara, Gujarat</p>
+              <ul class="detail-bullet-list">
+                <li>Designed and developed the primary company website to establish a strong visual brand and user experience.</li>
+                <li>Served as Assistant Manager and Team Lead, managing project workflows and team coordination.</li>
+                <li>Collaborated cross-functionally to translate client requirements into responsive web components.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Certifications Section (Detail Cards) -->
+    <section id="education">
+      <div class="container">
+        <div class="detail-panel">
+          <div class="panel-header">
+            <h2 class="panel-heading">Education &amp; Certifications</h2>
+          </div>
+
+          <div class="detail-grid-2">
+            <article class="detail-card">
+              <h3 class="detail-card-title">ITM Vocational University</h3>
+              <p class="card-meta-tag">2023–2027 • Vadodara, Gujarat</p>
+              <ul class="detail-bullet-list">
+                <li>Bachelor of Technology in Computer Science &amp; Engineering (CTIS)</li>
+              </ul>
+            </article>
+
+            <article class="detail-card">
+              <h3 class="detail-card-title">Sardar Patel Educational Institute</h3>
+              <p class="card-meta-tag">Graduated 2023 • Gujarat</p>
+              <ul class="detail-bullet-list">
+                <li>12th Science</li>
+              </ul>
+            </article>
+
+            <article class="detail-card">
+              <h3 class="detail-card-title">Web &amp; Database Certifications</h3>
+              <ul class="detail-bullet-list">
+                <li>Frontend Development — Simplilearn</li>
+                <li>WordPress Theme Development — CURSA</li>
+                <li>Oracle Apex — Oracle Apex Consultant</li>
+              </ul>
+            </article>
+
+            <article class="detail-card">
+              <h3 class="detail-card-title">AI Certification</h3>
+              <ul class="detail-bullet-list">
+                <li>Artificial Intelligence — ITM Vocational University</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Sprint / To-Do Tracker -->
+    <section id="tracker">
+      <div class="container">
+        <div class="detail-panel">
+          <div class="panel-header">
+            <h2 class="panel-heading">Development Sprint &amp; Task Tracker</h2>
+          </div>
+
+          <article class="detail-card todo-panel-card">
+            <div class="todo-input-group">
+              <input type="text" id="todoInput" placeholder="Add a new UI/UX or frontend milestone..." />
+              <button type="button" id="addTodoBtn" class="btn btn-primary">Add Task</button>
+            </div>
+            <div id="todoError" class="todo-error">Please enter a task description before adding.</div>
+
+            <ul id="todoList" class="todo-list"></ul>
+
+            <div class="todo-footer">
+              <span id="todoCount">0 tasks remaining</span>
+              <button type="button" id="resetTodosBtn" class="btn btn-outline btn-sm">Reset Defaults</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section (Detail Cards + Form Card) -->
+    <section id="contact">
+      <div class="container">
+        <div class="detail-panel">
+          <div class="panel-header">
+            <h2 class="panel-heading">Contact Details &amp; Message</h2>
+          </div>
+
+          <div class="detail-grid-2">
+            <article class="detail-card">
+              <h3 class="detail-card-title">Contact Information</h3>
+              <ul class="detail-bullet-list">
+                <li>Email: <a href="mailto:mr.khushrajyaguru@gmail.com">mr.khushrajyaguru@gmail.com</a></li>
+                <li>Phone: <a href="tel:+919428136403">+91-9428136403</a></li>
+                <li>Location: 390019, Gujarat</li>
+                <li>LinkedIn: khush-rajyaguru-079a6a376</li>
+                <li>GitHub: mrkhushrajyaguru-debug</li>
+              </ul>
+            </article>
+
+            <article class="detail-card">
+              <h3 class="detail-card-title">Send a Message</h3>
+              <form id="contactForm" class="contact-form" novalidate>
+                <div id="formBanner" class="form-banner"></div>
+
+                <div class="form-group">
+                  <label for="fullName">Full Name *</label>
+                  <input type="text" id="fullName" placeholder="Enter your name" />
+                  <div id="nameError" class="error-msg"></div>
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email Address *</label>
+                  <input type="email" id="email" placeholder="you@example.com" />
+                  <div id="emailError" class="error-msg"></div>
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Message *</label>
+                  <textarea id="message" rows="4" placeholder="Write your message (minimum 10 characters)..."></textarea>
+                  <div id="messageError" class="error-msg"></div>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+              </form>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Khush Rajyaguru. Built with Semantic HTML, Modern CSS &amp; Vanilla JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>
